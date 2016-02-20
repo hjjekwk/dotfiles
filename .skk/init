@@ -1,0 +1,4 @@
+(setq skk-large-jisyo "~/.skk/SKK-JISYO.L")
+(setq skk-kakutei-key (kbd "C-;"))
+(global-set-key (kbd "C-;") 'turn-on-skk-mode)
+(setq skk-egg-like-newline t)
